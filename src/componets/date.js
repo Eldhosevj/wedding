@@ -34,7 +34,7 @@ else if(tottalDayleftToMarriage<0){
 else{
 
 
-    let string= `only  days left for my Marriage day. Hope you all can postpone your busy shedule on that day `
+    let string= `only   days left for my Marriage day. Hope you all can postpone your busy shedule on that day `
 
 this.setState({...this.state,tottalDayleftToMarriage:string})
 
@@ -126,7 +126,7 @@ return (<span key={i} style={{color:"red"}}>{text}</span>)
   else if(i===4 ){
 var k=text+k
 
-        return (<span key={i} style={{fontSize:"22px"}}> {findTottalDayToMarriage()} </span>)
+        return (<span key={i} style={{fontSize:"22px"}}> 64 </span>)
     }
     
         

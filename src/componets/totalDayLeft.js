@@ -74,7 +74,7 @@ else if(array.length===1){
     totalDayLeftToMarriage=thisMonthRemainingDay
 return totalDayLeftToMarriage
 }
-
+console.log(totalDayLeftToMarriage,'total day left marrage')
 return totalDayLeftToMarriage
 }
 export default findTottalDayToMarriage
