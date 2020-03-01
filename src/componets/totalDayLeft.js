@@ -1,4 +1,12 @@
-let array=[31,29,31,5]
+
+function findTottalDayToMarriage(){
+    
+    var date=new Date()
+    
+   
+    var month=date.getMonth()+1
+
+    let array=[31,29,31,5]
 
 
 function deletUnwantedMonth(month){
@@ -37,13 +45,8 @@ else{
 
 }
 
-function findTottalDayToMarriage(){
-    
-    var date=new Date()
-    
-   
-    var month=date.getMonth()+1
-    
+
+
     deletUnwantedMonth(month)    
     var todaysDate=date.getDate() 
 
@@ -74,7 +77,7 @@ else if(array.length===1){
     totalDayLeftToMarriage=thisMonthRemainingDay
 return totalDayLeftToMarriage
 }
-console.log(totalDayLeftToMarriage,'total day left marrage')
+
 return totalDayLeftToMarriage
 }
 export default findTottalDayToMarriage
