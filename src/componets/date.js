@@ -96,10 +96,6 @@ return (<span key={i} style={{color:"red"}}>{text}</span>)
 
     }
 
-  else if(i===4 ){
-
-        return (<span key={i} style={{fontSize:"22px"}}> {findTottalDayToMarriage()} </span>)
-    }
     
         
 
